@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Regionalny Park Przemysłowy Świdnik - biura, sale konferencyjne, e-biuro</title>
+<meta name="description" content="Biura, sale konferencyjne, stanowiska inżynierskie z oprogramowaniem 3D i e-biuro w Regionalnym Parku Przemysłowym Świdnik, Al. Lotników Polskich 1 - 10 km od Lublina, przy Porcie Lotniczym Lublin.">
+<meta name="theme-color" content="#011947">
+<meta property="og:title" content="Regionalny Park Przemysłowy Świdnik">
+<meta property="og:description" content="Wszystko przygotowane pod dobry biznes - biura, sale konferencyjne, oprogramowanie 3D i e-biuro w Świdniku.">
+<meta property="og:image" content="img/og.jpg">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/archivo-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:75% 100%;font-display:swap;src:url(fonts/archivo-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC,U+2122}
+@font-face{font-family:"Archivo";font-weight:400 800;font-stretch:75% 100%;font-display:swap;src:url(fonts/archivo-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--n:#011947;--n2:#0E2E6E;--nd:#000F2E;--g:#0C6E3D;--g2:#095A31;--gs:#1FA463;--y:#FDDA00;--rw:#8496AD;--t:#0D1A33;--s:#4A5870;--sz:#EEF2F6;--l:#D6DEE8;--hh:72px;--gut:clamp(16px,3.2vw,56px);--w:1400px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.6;color:var(--t);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;line-height:1.06;letter-spacing:-.01em;font-weight:750}
+h1{font-stretch:78%;font-size:clamp(42px,5vw,88px);max-width:15ch}
+h2{font-stretch:80%;font-size:clamp(32px,3.7vw,56px);max-width:18ch}
+h3{font-stretch:88%;font-size:22px;line-height:1.18}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;gap:14px;background:var(--g);color:#fff;font-weight:650;font-size:18px;text-decoration:none;padding:18px 24px;border:0;border-radius:2px;line-height:1.2;cursor:pointer;font-family:inherit;transition:background .2s,transform .2s}
+.btn:hover{background:var(--g2)}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:30px;height:14px;flex:none}
+/* pas startowy - motyw */
+.pas{height:3px;background:repeating-linear-gradient(90deg,var(--rw) 0 26px,transparent 26px 42px)}
+.nw{white-space:nowrap}
+.hale{display:inline-block;width:46px;height:22px;flex:none}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.top.sc{border-bottom-color:var(--l);box-shadow:0 6px 24px rgba(1,25,71,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--n);line-height:1}
+.logo svg{width:52px;height:26px;flex:none}
+.logo b{display:block;font-weight:800;font-size:21px;font-stretch:82%;letter-spacing:-.005em}
+.logo small{display:block;font-size:12.5px;font-weight:500;color:var(--s);margin-top:3px}
+.menu{display:flex;gap:2px;margin-left:auto}
+.menu a{position:relative;text-decoration:none;font-weight:550;font-size:16px;padding:10px 12px;color:var(--t)}
+.menu a:hover{color:var(--n2)}
+.menu a.on{color:var(--n)}
+.menu a.on:after{content:"";position:absolute;left:12px;right:12px;bottom:2px;height:3px;background:repeating-linear-gradient(90deg,var(--g) 0 8px,transparent 8px 12px)}
+.top .tel{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:700;font-size:17px;color:#fff;background:var(--n);padding:12px 16px;border-radius:2px;white-space:nowrap}
+.top .tel:hover{background:var(--n2)}
+.top .tel svg{width:17px;height:17px}
+.burger{display:none;width:46px;height:46px;border:1px solid var(--l);background:#fff;border-radius:2px;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.burger i{display:block;width:20px;height:2px;background:var(--t);position:relative;transition:background .2s}
+.burger i:before,.burger i:after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--t);transition:transform .25s}
+.burger i:before{top:-6px}.burger i:after{top:6px}
+.top.open .burger i{background:transparent}
+.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}
+.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+.mtelik{display:none}
+
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;color:#fff;background:var(--n);overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 60%}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(1,20,58,.9) 0%,rgba(1,25,71,.7) 36%,rgba(1,25,71,.12) 68%,rgba(1,25,71,0) 100%)}
+.hero .in{position:relative;z-index:3;width:min(var(--w),100% - 2*var(--gut));margin:auto auto 0;padding:72px 0 clamp(72px,8vw,120px)}
+.hero .lead{font-size:clamp(18px,1.4vw,22px);line-height:1.5;max-width:31em;margin-top:24px;color:rgba(255,255,255,.93)}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;margin-top:36px}
+.hero .adr{font-size:16px;line-height:1.45;color:rgba(255,255,255,.88)}
+.hero .adr b{color:#fff;font-weight:650}
+.hero .pas{position:absolute;z-index:3;left:0;right:0;bottom:clamp(30px,3vw,44px);opacity:.75;background:repeating-linear-gradient(90deg,#fff 0 26px,transparent 26px 42px)}
+.dach{position:absolute;z-index:4;right:var(--gut);bottom:-1px;width:clamp(150px,21vw,360px);height:auto}
+
+/* sekcje */
+section{padding:clamp(64px,8vw,120px) 0}
+.hero{padding:0}
+.sz{background:var(--sz)}
+.hd{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px 40px;margin-bottom:clamp(30px,3.6vw,52px)}
+.hd p{max-width:36em;color:var(--s);font-size:18px}
+.nav{display:flex;gap:10px}
+.nav button{width:52px;height:52px;border:1px solid var(--l);background:#fff;border-radius:2px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--n)}
+.nav button:hover{border-color:var(--n);background:var(--n);color:#fff}
+.nav svg{width:20px;height:20px}
+
+/* oferta - karty */
+.tor{display:flex;column-gap:clamp(14px,1.6vw,24px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;padding-bottom:4px;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor.drag *{pointer-events:none}
+.karta{flex:0 0 clamp(270px,25vw,360px);scroll-snap-align:start;background:#fff;user-select:none;border:1px solid var(--l);display:flex;flex-direction:column}
+.foto{position:relative;aspect-ratio:4/3;overflow:hidden;background:#dfe5ec}
+.foto img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+.karta:hover .foto img{transform:scale(1.04)}
+.foto:after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--g)}
+.karta .tx{padding:22px 22px 26px}
+.karta p{margin-top:9px;color:var(--s);font-size:16px;line-height:1.55}
+.karta.eb{background:var(--n);color:#fff;border-color:var(--n)}
+.karta.eb .wnetrze{aspect-ratio:4/3;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;background:linear-gradient(180deg,#0E2E6E,#011947)}
+.karta.eb .cena{font-size:clamp(40px,4vw,54px);font-weight:800;font-stretch:78%;line-height:1}
+.karta.eb .cena small{font-size:17px;font-weight:500;font-stretch:100%;display:block;margin-top:8px;color:rgba(255,255,255,.8)}
+.karta.eb p{color:rgba(255,255,255,.84)}
+.karta.eb .pas{margin-bottom:22px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.55) 0 26px,transparent 26px 42px)}
+
+/* budynki */
+.bud{display:grid;grid-template-columns:1.15fr 1fr;gap:0;background:#fff;align-items:stretch}
+.bud+.bud{margin-top:clamp(18px,2vw,28px)}
+.bud .zd{position:relative;min-height:340px;overflow:hidden;background:#dfe5ec}
+.bud .zd img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bud .op{padding:clamp(28px,3.4vw,56px)}
+.bud .op>p{color:var(--s);margin-top:14px}
+.bud.odw .zd{order:2}
+.par{margin:26px 0 0;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:0}
+.par dt,.par dd{padding:12px 0;border-top:1px solid var(--l);margin:0}
+.par dt{color:var(--s);padding-right:24px;font-size:16px}
+.par dd{font-weight:650;font-size:17px}
+.uw{margin-top:18px;font-size:14.5px;color:var(--s)}
+
+/* teren - ciemna sekcja */
+.dk{background:var(--n);color:#fff;position:relative;overflow:hidden}
+.dk .siatka{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(36px,6vw,110px);align-items:start}
+.dk .lead2{font-size:clamp(18px,1.35vw,21px);color:rgba(255,255,255,.88);margin-top:24px;max-width:31em}
+.dk .lead2+.lead2{margin-top:14px}
+.lista{list-style:none;margin:28px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
+.lista li{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-top:1px solid rgba(255,255,255,.18);font-size:16.5px;color:rgba(255,255,255,.9)}
+.lista .hale{width:30px;height:15px;margin-top:5px;color:#fff}
+.dojazd h3{font-size:24px}
+.trasa{list-style:none;margin:22px 0 0;padding:0;position:relative}
+.trasa:before{content:"";position:absolute;left:9px;top:10px;bottom:10px;width:3px;background:repeating-linear-gradient(180deg,rgba(255,255,255,.6) 0 14px,transparent 14px 24px)}
+.trasa li{position:relative;padding:0 0 26px 44px}
+.trasa li:last-child{padding-bottom:0}
+.trasa li:before{content:"";position:absolute;left:2px;top:6px;width:17px;height:17px;border-radius:50%;background:var(--n);border:3px solid #fff}
+.trasa li.tu:before{background:var(--gs);border-color:var(--gs)}
+.trasa b{display:block;font-size:20px;font-weight:700;font-stretch:88%}
+.trasa span{color:rgba(255,255,255,.8);font-size:16px}
+.dk .pas{margin-top:clamp(48px,6vw,84px);background:repeating-linear-gradient(90deg,rgba(132,150,173,.75) 0 26px,transparent 26px 42px)}
+.udz{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px 40px;font-size:15.5px;color:rgba(255,255,255,.78)}
+.udz b{color:#fff;font-weight:600}
+
+/* e-biuro */
+.eb2{display:grid;grid-template-columns:minmax(280px,.8fr) 1.2fr;gap:clamp(30px,5vw,90px);align-items:start}
+.eb2 .opis p{color:var(--s);margin-top:16px}
+.cennik{width:100%;border-collapse:collapse;font-size:17px}
+.cennik caption{text-align:left;font-size:14.5px;color:var(--s);padding-bottom:12px}
+.cennik th,.cennik td{text-align:left;padding:17px 0;border-top:1px solid var(--l);vertical-align:top}
+.cennik tr:last-child td,.cennik tr:last-child th{border-bottom:1px solid var(--l)}
+.cennik th{font-weight:500;padding-right:24px}
+.cennik td{font-weight:750;white-space:nowrap;text-align:right;font-stretch:88%;font-size:20px;color:var(--n)}
+.cennik td.uzg{font-weight:600;font-size:16px;color:var(--s);white-space:normal}
+
+/* firmy */
+.firmy{columns:4 220px;column-gap:40px;margin:0;padding:0;list-style:none}
+.firmy li{break-inside:avoid;padding:9px 0;border-top:1px solid var(--l);font-size:16px;font-weight:550}
+.firmy li.w{font-weight:750;color:var(--n)}
+
+/* kontakt */
+.kont{display:grid;grid-template-columns:minmax(300px,.85fr) 1.15fr;gap:clamp(30px,4vw,70px);align-items:start}
+.dane .tl{display:inline-block;font-size:clamp(34px,3.4vw,50px);font-weight:800;font-stretch:78%;text-decoration:none;color:var(--n);line-height:1.05;letter-spacing:-.01em;margin-top:22px}
+.dane .tl:hover{color:var(--g)}
+.dane dl{margin:24px 0 0;display:grid;grid-template-columns:auto 1fr;gap:10px 22px;font-size:16.5px}
+.dane dt{color:var(--s)}
+.dane dd{margin:0;font-weight:550}
+.dane dd a{text-decoration-color:var(--l);text-underline-offset:3px}
+.rej{margin-top:22px;font-size:14px;color:var(--s);line-height:1.6}
+.mapa{position:relative;min-height:300px;margin-top:28px;background:#dde4ec;overflow:hidden}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--s);font-size:15px}
+.form{background:var(--sz);padding:clamp(24px,3vw,44px)}
+.form h3{font-size:26px}
+.form>p{color:var(--s);margin-top:8px;font-size:16px}
+.pola{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.pola .cale{grid-column:1/-1}
+.form label{display:block;font-size:14.5px;font-weight:600;margin-bottom:6px}
+.form input,.form select,.form textarea{width:100%;font:inherit;font-size:16px;color:var(--t);background:#fff;border:1px solid #C3CDD9;border-radius:2px;padding:13px 14px}
+.form textarea{min-height:120px;resize:vertical}
+.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--n2);outline-offset:0;border-color:var(--n2)}
+.zgoda{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--s);margin-top:18px;line-height:1.5}
+.zgoda input{width:18px;height:18px;flex:none;margin-top:2px}
+.form .btn{margin-top:22px}
+.ok{margin-top:16px;background:#fff;border-left:3px solid var(--g);padding:12px 16px;font-size:15.5px}
+.ok[hidden]{display:none}
+
+/* stopka */
+.stopka{background:var(--nd);color:rgba(255,255,255,.78);padding:48px 0 28px;font-size:15px}
+.stopka .g{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px 40px}
+.stopka .logo{color:#fff}
+.stopka .logo small{color:rgba(255,255,255,.65)}
+.stopka h4{margin:0 0 10px;color:#fff;font-size:15px;font-weight:650}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka p+p{margin-top:4px}
+.stopka .dol{margin-top:34px;padding-top:20px;border-top:1px solid rgba(255,255,255,.16);display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center}
+.stopka .zr{font-size:12.5px;color:rgba(255,255,255,.55);margin-top:14px;line-height:1.5}
+
+/* pasek na telefonie */
+.mob{display:none}
+
+/* Wylinka - oficjalny znak */
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+/* responsywnosc */
+@media (max-width:1180px){.menu a{padding:10px 8px;font-size:15.5px}.menu a.on:after{left:8px;right:8px}}
+@media (max-width:1040px){
+  .menu,.top .tel{display:none}
+  .burger{display:flex}
+  .mtelik{display:flex;margin-left:auto;width:46px;height:46px;align-items:center;justify-content:center;background:var(--n);color:#fff;border-radius:2px}
+  .mtelik svg{width:20px;height:20px}
+  .top.open .menu{display:flex;position:absolute;top:var(--hh);left:0;right:0;flex-direction:column;gap:0;background:#fff;border-bottom:1px solid var(--l);box-shadow:0 18px 30px rgba(1,25,71,.12);padding:8px var(--gut) 20px}
+  .top.open .menu a{padding:15px 2px;font-size:19px;border-bottom:1px solid var(--sz)}
+  .top.open .menu a.on:after{left:2px;right:auto;width:60px;bottom:8px}
+  .dk .siatka,.kont,.eb2{grid-template-columns:1fr}
+  .bud{grid-template-columns:1fr}
+  .bud.odw .zd{order:0}
+  .bud .zd{min-height:0;aspect-ratio:3/2}
+}
+@media (max-width:760px){
+  body{font-size:16.5px}
+  .top{--hh:64px}
+  :root{--hh:64px}
+  .logo svg{width:44px;height:22px}
+  .logo b{font-size:19px}
+  .logo small{font-size:11.5px}
+  .logo small{display:none}
+  .logo b{font-size:18px}
+  .hero{flex-direction:column}
+  .hero picture{position:relative;inset:auto;flex:1 1 auto;min-height:min(56vw,30svh);height:auto}
+  .hero picture img{position:absolute;inset:0;object-position:50% 55%}
+  .hero:after{background:linear-gradient(180deg,rgba(1,25,71,0) 0%,rgba(1,25,71,0) 22%,rgba(1,25,71,.65) 34%,#011947 44%)}
+  .hero picture:after{content:"";position:absolute;left:0;right:0;bottom:0;height:46%;background:linear-gradient(180deg,rgba(1,25,71,0),#011947)}
+  .hero:after{display:none}
+  .hero .in{margin:0;width:auto;padding:10px var(--gut) 78px;flex:0 0 auto}
+  .hero .adr{display:none}
+  h1{font-size:clamp(38px,11.4vw,50px)}
+  .hero .lead{margin-top:16px;font-size:16.5px}
+  .hero .cta{margin-top:26px;gap:14px}
+  .hero .btn{width:100%;justify-content:center}
+  .hero .pas{bottom:26px}
+  .dach{width:132px}
+  .nav{display:none}
+  .tor{margin-inline:calc(-1*var(--gut));padding-inline:var(--gut);scroll-padding-inline:var(--gut)}
+  .karta{flex-basis:80vw}
+  .lista{grid-template-columns:1fr}
+  .firmy{columns:2;column-gap:18px}
+  .firmy li{font-size:14.5px;padding:8px 0}
+  .pola{grid-template-columns:1fr}
+  .cennik th{font-size:16px}
+  .cennik td{font-size:18px}
+  .stopka .g{grid-template-columns:1fr 1fr}
+  .stopka .g>div:first-child{grid-column:1/-1}
+  .mob{display:grid;grid-template-columns:1fr 1.4fr;position:fixed;left:0;right:0;bottom:0;z-index:60;transform:translateY(110%);transition:transform .25s;box-shadow:0 -6px 20px rgba(1,25,71,.18)}
+  .mob.widac{transform:none}
+  .mob a{display:flex;align-items:center;justify-content:center;gap:8px;padding:16px 10px;font-weight:700;text-decoration:none;color:#fff;background:var(--n);font-size:16px}
+  .mob a+a{background:var(--g)}
+  .stopka{padding-bottom:84px}
+}
+@media (max-width:760px) and (max-height:700px){
+  h1{font-size:clamp(34px,10vw,42px)}
+  .hero .lead{font-size:15.5px;line-height:1.45}
+  .hero .in{padding-bottom:70px}
+}
+@media (min-width:761px) and (max-height:820px){
+  h1{font-size:clamp(40px,4.6vw,72px)}
+  .hero .in{padding-top:48px;padding-bottom:84px}
+  .hero .lead{margin-top:18px}
+  .hero .cta{margin-top:28px}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="hale" viewBox="0 0 60 30"><path d="M1 25V15L18 4V25ZM21 25V15L38 4V25ZM41 25V15L58 4V25Z" fill="currentColor"/><rect x="1" y="27" width="57" height="2.6" fill="#1FA463"/></symbol>
+  <symbol id="strz" viewBox="0 0 30 14"><path d="M0 7h26M20 1l7 6-7 6" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+  <symbol id="tel" viewBox="0 0 20 20"><path d="M6.2 2.5 4 3.1c-.9.3-1.4 1.1-1.3 2 .6 5.6 5.6 10.6 11.2 11.2.9.1 1.7-.4 2-1.3l.6-2.2-3.4-1.6-1.6 1.6c-1.9-.9-3.4-2.4-4.3-4.3l1.6-1.6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+</svg>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="Regionalny Park Przemysłowy Świdnik - strona główna">
+      <svg viewBox="0 0 60 30" aria-hidden="true"><path d="M1 25V15L18 4V25ZM21 25V15L38 4V25ZM41 25V15L58 4V25Z" fill="#332E2D"/><rect x="1" y="27" width="57" height="2.6" fill="#0C6E3D"/></svg>
+      <span><b>Park Przemysłowy Świdnik</b><small>Regionalny Park Przemysłowy ŚWIDNIK Sp. z o.o.</small></span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Menu">
+      <a href="#oferta">Oferta</a>
+      <a href="#budynki">Budynki</a>
+      <a href="#teren">Teren i dojazd</a>
+      <a href="#e-biuro">E-biuro</a>
+      <a href="#firmy">Firmy w parku</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="tel" href="tel:+48817226022"><svg aria-hidden="true"><use href="#tel"/></svg>81 722 60 22</a>
+    <a class="mtelik" href="tel:+48817226022" aria-label="Zadzwoń: 81 722 60 22"><svg aria-hidden="true"><use href="#tel"/></svg></a>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-label="Regionalny Park Przemysłowy Świdnik">
+  <picture>
+    <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="100vw" width="800" height="600">
+    <img src="img/hero-1600.webp" srcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-1920.webp 1920w" sizes="100vw" width="1920" height="1280" alt="Sala konferencyjna w budynku wielofunkcyjnym Parku - rzędy krzeseł, ekran i tablice" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="in">
+    <h1>Wszystko przygotowane pod dobry biznes</h1>
+    <p class="lead">Biura, sale konferencyjne, stanowiska inżynierskie z oprogramowaniem 3D i e-biuro na terenie dawnych zakładów <span class="nw">PZL-Świdnik</span> - 10 km od Lublina, tuż przy lotnisku.</p>
+    <div class="cta">
+      <a class="btn" href="#kontakt">Zapytaj o powierzchnię <svg aria-hidden="true"><use href="#strz"/></svg></a>
+      <p class="adr"><b>Al. Lotników Polskich 1</b><br>21-045 Świdnik</p>
+    </div>
+  </div>
+  <div class="pas" aria-hidden="true"></div>
+  <svg class="dach" viewBox="0 0 300 64" aria-hidden="true"><path d="M0 64V46L96 6V46L100 46L196 6V46L200 46L296 6V46H300V64Z" fill="#fff"/><rect x="0" y="50" width="300" height="5" fill="#0C6E3D"/></svg>
+</section>
+
+<section id="oferta">
+  <div class="wrap">
+    <div class="hd">
+      <div>
+        <h2>Co możemy Państwu wynająć</h2>
+      </div>
+      <p>Pomieszczenia i sprzęt do pracy inżynierskiej w jednym miejscu. Stawki ustalamy indywidualnie - zależą od powierzchni, czasu najmu i zakresu usług.</p>
+      <div class="nav" data-tor="tor1"><button data-k="-1" aria-label="Poprzednie"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></button><button data-k="1" aria-label="Następne"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 4l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div>
+    </div>
+    <div class="tor" id="tor1">
+      <article class="karta">
+        <div class="foto"><img src="img/biura.webp" width="600" height="400" loading="lazy" decoding="async" alt="Sala szkoleniowa ze stanowiskami komputerowymi"></div>
+        <div class="tx"><h3>Biura, sale szkoleniowe i konferencyjne</h3><p>Umeblowane, klimatyzowane pomieszczenia. Sale ze sprzętem multimedialnym na szkolenia, spotkania i konferencje.</p></div>
+      </article>
+      <article class="karta">
+        <div class="foto"><img src="img/cad.webp" width="400" height="400" loading="lazy" decoding="async" alt="Laptop z modelem 3D części maszyny"></div>
+        <div class="tx"><h3>Oprogramowanie 3D: CATIA, NX, AutoCAD</h3><p>Stanowiska inżynierskie ze stacjami graficznymi. Dzierżawa oprogramowania do projektowania w środowisku 3D.</p></div>
+      </article>
+      <article class="karta">
+        <div class="foto"><img src="img/skan3d.webp" width="400" height="400" loading="lazy" decoding="async" alt="Skaner 3D skanujący element mechaniczny"></div>
+        <div class="tx"><h3>Skanowanie 3D</h3><p>Dokładny trójwymiarowy model obiektu - do wzornictwa przemysłowego i dokumentacji.</p></div>
+      </article>
+      <article class="karta">
+        <div class="foto"><img src="img/druk3d.webp" width="400" height="400" loading="lazy" decoding="async" alt="Drukarka 3D drukująca napis 3D"></div>
+        <div class="tx"><h3>Druk 3D</h3><p>Prototypy, produkty koncepcyjne i gotowe elementy z tworzywa - szybciej niż innymi technologiami.</p></div>
+      </article>
+      <article class="karta">
+        <div class="foto"><img src="img/ploter.webp" width="400" height="400" loading="lazy" decoding="async" alt="Ploter i skaner wielkoformatowy"></div>
+        <div class="tx"><h3>Skan wielkoformatowy do A0</h3><p>Mapy, szkice i dokumentacja techniczna w formatach większych niż A4.</p></div>
+      </article>
+      <article class="karta eb">
+        <div class="wnetrze"><div class="pas" aria-hidden="true"></div><p class="cena">80 zł netto<small>miesięcznie - adres firmy, korespondencja i 8 h pokoju biurowego</small></p></div>
+        <div class="tx"><h3>E-biuro</h3><p>Adres do rejestracji firmy w Świdniku, odbiór korespondencji, opcjonalnie powiadomienia SMS i obsługa sekretarska. <a href="#e-biuro">Cennik</a></p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="budynki" class="sz">
+  <div class="wrap">
+    <div class="hd">
+      <h2>Dwa budynki, gotowe do wprowadzenia się</h2>
+      <p>Na terenie Parku wynajmujemy powierzchnie w nowym budynku wielofunkcyjnym i w budynku po termomodernizacji przy ul. Mechanicznej.</p>
+    </div>
+    <article class="bud">
+      <div class="zd"><img src="img/korytarz-800.webp" srcset="img/korytarz-800.webp 800w, img/korytarz-1200.webp 1200w" sizes="(max-width:1040px) 100vw, 55vw" width="1200" height="800" loading="lazy" decoding="async" alt="Korytarz budynku wielofunkcyjnego z ploterem wielkoformatowym"></div>
+      <div class="op">
+        <h3>Budynek wielofunkcyjny<br>Al. Lotników Polskich 1</h3>
+        <p>Nowoczesny, w pełni umeblowany i klimatyzowany. Stanowiska inżynierskie ze stacjami graficznymi, sprzęt poligraficzny, biura oraz sale szkoleniowe i konferencyjne.</p>
+        <dl class="par">
+          <dt>Oddany do użytku</dt><dd>2011</dd>
+          <dt>Powierzchnia użytkowa</dt><dd>ok. 2 500 m²</dd>
+          <dt>Kondygnacje</dt><dd>4</dd>
+          <dt>Laboratorium</dt><dd>45 m², wysokość 6 m, osobne wejście</dd>
+          <dt>Dostęp</dt><dd>elektroniczna kontrola dostępu</dd>
+        </dl>
+      </div>
+    </article>
+    <article class="bud odw">
+      <div class="zd"><img src="img/budynek.webp" width="600" height="400" loading="lazy" decoding="async" alt="Czterokondygnacyjny budynek biurowy z parkingiem"></div>
+      <div class="op">
+        <h3>Budynek B-126/2<br>ul. Mechaniczna 13</h3>
+        <p>Czterokondygnacyjny obiekt po termomodernizacji - powierzchnie dla małych i średnich firm usługowych i produkcyjnych, w bezpośrednim sąsiedztwie Portu Lotniczego Lublin.</p>
+        <dl class="par">
+          <dt>Powierzchnia</dt><dd>ok. 2 000 m²</dd>
+          <dt>Kondygnacje</dt><dd>4</dd>
+          <dt>Parking</dt><dd>63 miejsca wokół budynku</dd>
+        </dl>
+        <p class="uw">Zdjęcia w podglądzie pochodzą z obecnej strony Parku.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="teren" class="dk">
+  <div class="wrap">
+    <div class="siatka">
+      <div>
+        <h2>50 hektarów po zakładach <span class="nw">PZL-Świdnik</span></h2>
+        <p class="lead2">Park powstał w wyniku restrukturyzacji <span class="nw">PZL-Świdnik</span> S.A., na wschodniej części terenu zakładów. Od 2005 roku spółka działa na zasadach non profit na rzecz rozwoju regionu i aktywizacji rejonu świdnickiego.</p>
+        <p class="lead2">Obiekty i wolne tereny mają zrewitalizowane sieci: energetyczną, cieplną, wodno-kanalizacyjną i teletechniczną.</p>
+        <ul class="lista">
+          <li><svg class="hale" aria-hidden="true"><use href="#hale"/></svg>obiekty produkcyjne</li>
+          <li><svg class="hale" aria-hidden="true"><use href="#hale"/></svg>obiekty magazynowe</li>
+          <li><svg class="hale" aria-hidden="true"><use href="#hale"/></svg>obiekty biurowe i pomocnicze</li>
+          <li><svg class="hale" aria-hidden="true"><use href="#hale"/></svg>tereny pod składowiska i nowe obiekty</li>
+          <li><svg class="hale" aria-hidden="true"><use href="#hale"/></svg>drogi dla aut ciężarowych (klasa KR1)</li>
+          <li><svg class="hale" aria-hidden="true"><use href="#hale"/></svg>oznakowane ulice i tablice firm</li>
+        </ul>
+      </div>
+      <div class="dojazd">
+        <h3>Dojazd</h3>
+        <ol class="trasa">
+          <li class="tu"><b>Park: Al. Lotników Polskich 1</b><span>wjazd także od ul. Unijnej, od strony lotniska</span></li>
+          <li><b>Port Lotniczy Lublin</b><span>bezpośrednio przy granicy Parku, obok linii kolejowej</span></li>
+          <li><b>Obwodnica Lublina</b><span>przez ul. Mełgiewską i Al. Lotników Polskich</span></li>
+          <li><b>Lublin - 10 km</b><span>stolica województwa</span></li>
+          <li><b>Warszawa - 200 km</b></li>
+        </ol>
+      </div>
+    </div>
+    <div class="pas" aria-hidden="true"></div>
+    <div class="udz"><span>Udziałowcy spółki:</span><b>WSK „PZL-Świdnik” S.A.</b><b>Gmina Miejska Świdnik</b><b>Starostwo Powiatowe w Świdniku</b></div>
+  </div>
+</section>
+
+<section id="e-biuro">
+  <div class="wrap eb2">
+    <div class="opis">
+      <h2>E-biuro w Świdniku</h2>
+      <p>Adres Parku jako siedziba Państwa firmy, odbiór korespondencji i 8 godzin pokoju biurowego w miesiącu - na spotkanie z klientem albo dzień spokojnej pracy.</p>
+      <p>Obsługę księgową ustalamy indywidualnie.</p>
+      <a class="btn" href="#kontakt" style="margin-top:28px">Zapytaj o e-biuro <svg aria-hidden="true"><use href="#strz"/></svg></a>
+    </div>
+    <table class="cennik">
+      <caption>Cennik miesięczny z obecnej strony Parku (ceny netto)</caption>
+      <tr><th>Adres + do 20 szt. korespondencji + 8 h pokoju biurowego</th><td>80,00 zł</td></tr>
+      <tr><th>To samo + powiadomienie SMS o nadejściu korespondencji</th><td>100,00 zł</td></tr>
+      <tr><th>Adres + 21-50 szt. korespondencji + 8 h pokoju biurowego</th><td>150,00 zł</td></tr>
+      <tr><th>Obsługa sekretarska</th><td>500,00 zł</td></tr>
+      <tr><th>Powyżej 51 szt. korespondencji, obsługa księgowa</th><td class="uzg">do uzgodnienia</td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="firmy" class="sz">
+  <div class="wrap">
+    <div class="hd">
+      <h2>Ponad 40 firm już tu pracuje</h2>
+      <p>Od jednoosobowych działalności po duże przedsiębiorstwa. Wybrane firmy z listy na obecnej stronie Parku.</p>
+    </div>
+    <ul class="firmy">
+      <li class="w">PZL-Świdnik S.A.</li><li class="w">Boeing Sp. z o.o.</li><li class="w">Orlen Upstream Sp. z o.o.</li><li class="w">Advanced Technology Centre Obr Sp. z o.o.</li>
+      <li>4 Mass S.A.</li><li>Assemblertec Sp. z o.o.</li><li>Bayos Sp. z o.o.</li><li>Centralpak Świerz i Wilk Sp. j.</li>
+      <li>Damcom Grupa Sp. z o.o.</li><li>DS Solutions Sp. z o.o.</li><li>Elto Sp. z o.o.</li><li>Euro-Medica Sp. z o.o.</li>
+      <li>Exin Air Sp. z o.o.</li><li>Faston Sp. z o.o. Sp. k.</li><li>KCC Polska Sp. z o.o.</li><li>Lubelska Agencja Ochrony Środowiska S.A.</li>
+      <li>Mantes Sp. z o.o.</li><li>Manual-Med Sp. z o.o.</li><li>Martz Sp. z o.o.</li><li>Mobile Lab Trainer Sp. z o.o.</li>
+      <li>Pegimek Sp. z o.o.</li><li>Print-Coatings Polska Sp. z o.o.</li><li>Ran Sigma Sp. z o.o.</li><li>RDS Cargo Group Sp. z o.o.</li>
+      <li>Resotech Sp. z o.o.</li><li>SMF Poland Sp. z o.o.</li><li>Test-Projekt Sp. z o.o.</li><li>TPL Aeroservice</li>
+      <li>Zakład Obróbki Plastycznej Sp. z o.o.</li><li>Studio Sitodruku M&amp;S Sp. j.</li><li>Shop Map Sp. z o.o.</li><li>i kolejne firmy</li>
+    </ul>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="wrap kont">
+    <div class="dane">
+      <h2>Porozmawiajmy o Państwa firmie</h2>
+      <a class="tl" href="tel:+48817226022">81 722 60 22</a>
+      <dl>
+        <dt>Komórka</dt><dd><a href="tel:+48728804638">728 804 638</a></dd>
+        <dt>E-mail</dt><dd><a href="mailto:biuro@park.swidnik.pl">biuro@park.swidnik.pl</a></dd>
+        <dt>Adres</dt><dd>Al. Lotników Polskich 1<br>21-045 Świdnik</dd>
+      </dl>
+      <p class="rej">Regionalny Park Przemysłowy ŚWIDNIK Sp. z o.o.<br>NIP 712-297-19-61 · KRS 0000244632 · REGON 060058518</p>
+      <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Al.+Lotnik%C3%B3w+Polskich+1,+21-045+%C5%9Awidnik&amp;z=15&amp;output=embed" data-title="Mapa dojazdu - Al. Lotników Polskich 1, Świdnik"><span class="ph">Mapa dojazdu</span></div>
+    </div>
+    <form class="form" id="form" novalidate>
+      <h3>Zapytanie o powierzchnię lub usługę</h3>
+      <p>Prosimy o kilka słów o potrzebach - odpowiemy mailowo albo telefonicznie.</p>
+      <div class="pola">
+        <div><label for="f-imie">Imię i nazwisko</label><input id="f-imie" name="imie" autocomplete="name"></div>
+        <div><label for="f-kontakt">Telefon lub e-mail</label><input id="f-kontakt" name="kontakt" autocomplete="email"></div>
+        <div class="cale"><label for="f-co">Czego Państwo szukają?</label>
+          <select id="f-co" name="co"><option>Biuro</option><option>Sala szkoleniowa lub konferencyjna</option><option>Stanowisko inżynierskie / oprogramowanie 3D</option><option>Skan lub druk 3D, skan wielkoformatowy</option><option>E-biuro</option><option>Hala, magazyn lub teren</option><option>Inne</option></select></div>
+        <div class="cale"><label for="f-tresc">Wiadomość</label><textarea id="f-tresc" name="tresc" placeholder="Np. biuro dla 4 osób od stycznia"></textarea></div>
+      </div>
+      <label class="zgoda"><input type="checkbox" name="zgoda"> Wyrażam zgodę na przetwarzanie danych w celu odpowiedzi na zapytanie, zgodnie z polityką prywatności.</label>
+      <button class="btn" type="submit">Wyślij zapytanie <svg aria-hidden="true"><use href="#strz"/></svg></button>
+      <p class="ok" id="form-ok" tabindex="-1" hidden>To podgląd - formularz nie wysyła wiadomości. Na docelowej stronie zapytanie trafi na biuro@park.swidnik.pl.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="g">
+      <div>
+        <a class="logo" href="#" aria-label="Park Przemysłowy Świdnik - do góry">
+          <svg viewBox="0 0 60 30" aria-hidden="true"><path d="M1 25V15L18 4V25ZM21 25V15L38 4V25ZM41 25V15L58 4V25Z" fill="#fff"/><rect x="1" y="27" width="57" height="2.6" fill="#1FA463"/></svg>
+          <span><b>Park Przemysłowy Świdnik</b><small>Regionalny Park Przemysłowy ŚWIDNIK Sp. z o.o.</small></span>
+        </a>
+        <p style="margin-top:16px">Al. Lotników Polskich 1, 21-045 Świdnik</p>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <p><a href="tel:+48817226022">81 722 60 22</a></p>
+        <p><a href="tel:+48728804638">728 804 638</a></p>
+        <p><a href="mailto:biuro@park.swidnik.pl">biuro@park.swidnik.pl</a></p>
+      </div>
+      <div>
+        <h4>Park</h4>
+        <p><a href="#oferta">Oferta</a></p>
+        <p><a href="#budynki">Budynki</a></p>
+        <p><a href="#e-biuro">E-biuro</a></p>
+        <p><a href="#firmy">Firmy w parku</a></p>
+      </div>
+    </div>
+    <div class="dol">
+      <span>© 2026 Regionalny Park Przemysłowy ŚWIDNIK Sp. z o.o.</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=park.swidnik.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+    <p class="zr">Podgląd koncepcji strony przygotowany na treściach i zdjęciach z obecnej strony park.swidnik.pl.</p>
+  </div>
+</footer>
+<nav class="mob" id="mob" aria-label="Szybki kontakt"><a href="tel:+48817226022"><svg width="18" height="18" aria-hidden="true"><use href="#tel"/></svg>Zadzwoń</a><a href="#kontakt">Zapytaj o powierzchnię</a></nav>
+<script src="app.js" defer></script>
+</body>
+</html>
