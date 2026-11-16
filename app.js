@@ -9,7 +9,8 @@
   var links=[].slice.call(document.querySelectorAll('.menu a[href^="#"]'));
   var secs=links.map(function(l){return document.querySelector(l.getAttribute('href'))});
   function act(){var y=innerHeight*0.4,cur=-1;secs.forEach(function(s,i){if(s&&s.getBoundingClientRect().top<=y&&s.getBoundingClientRect().bottom>y)cur=i});links.forEach(function(l,i){l.classList.toggle('on',i===cur)})}
-  window.addEventListener('scroll',act,{passive:true});act();
+  var tk=false;function req(){if(tk)return;tk=true;requestAnimationFrame(function(){tk=false;act()})}
+  window.addEventListener('scroll',req,{passive:true});window.addEventListener('load',function(){setTimeout(req,300)});
   // tory kart: palec natywnie, mysz przeciaganiem, strzalki
   document.querySelectorAll('.tor').forEach(function(tor){
     var down=false,sx=0,sl=0,moved=false;
